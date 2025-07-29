@@ -10,7 +10,7 @@ pipeline = joblib.load('pipeline_1.pkl')
 
 # Home route
 @app.route('/')
-def home():
+def home():   
     return render_template('index.html')
 
 # Predict route
